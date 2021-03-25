@@ -1,0 +1,25 @@
+.author_book {
+  text-align: center;
+  font-size: large;
+}
+
+.authoritem {
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.author_cover {
+  height: 130px;
+  display: block;
+  float: left;
+  border-radius: 4px;
+}
+
+.author_meta {
+  font-weight: bold;
+}
+
+.author_meta_info {
+  font-weight: normal;
+  font-style: cursive;
+}

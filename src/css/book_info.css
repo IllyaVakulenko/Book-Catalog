@@ -1,0 +1,53 @@
+.bookitem {
+  height: 280px;
+  margin-bottom: 38px;
+}
+
+.book_cover {
+  height: 20em;
+  display: block;
+  float: left;
+  border-radius: 4px;
+}
+
+.bookitem_name {
+  color: #fdfdfd;
+  font-family: "Poiret_One";
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.bookitem_right {
+  position: relative; margin-left: 200px;
+}
+
+.p_about {
+  font-size: 14px;
+  background: #1a1a1a4d;
+  color: #e4e4e4;
+  padding: 5px;
+  border-radius: 10px;
+  height: 178px;
+  overflow-y: auto;
+}
+
+.bookitem_meta_block {
+  padding-left: 5px;
+  float: bottom;
+}
+
+.meta_icon {
+  opacity: 0.7;
+  display: block;
+  margin-top: 0;
+  float: left;
+  width: 14px;
+  height: 14px;
+}
+
+.p_meta {
+  margin-left: 20px;
+  margin-bottom: 4px;
+  font-family: "Comfortaa";
+  color: #46bbbb;
+}

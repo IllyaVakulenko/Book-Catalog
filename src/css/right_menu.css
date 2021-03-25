@@ -1,0 +1,20 @@
+header {
+  margin: 0 8px 0 8px;
+  background: #747474;
+  height: 70px;
+  border-radius: 0 0 10px 10px;
+}
+
+.title {
+  font-size: 36px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#right {
+  position: absolute; top: 0; right: 0;
+  margin-left: 55px;
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}

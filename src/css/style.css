@@ -1,0 +1,45 @@
+@import "left_menu.css";
+@import "right_menu.css";
+@import "full_list.css";
+@import "author_info.css";
+@import "book_info.css";
+@import "slider.css";
+@import "fonts.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Product Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fdfdfd;
+  background-color: #383838;
+  min-width: 340px;
+}
+
+@media (max-device-aspect-ratio: 14/16), (max-width: 700px) {
+  #right {
+    width: auto;
+    margin-left: 55px;
+    right: 0;
+  }
+
+  .full_list {
+    margin-left: 0;
+    padding: 0 2% 0 2%;
+  }
+  
+  .bookitem {
+    height: auto;
+  }
+  
+  .book_cover {
+    float: none;
+  }
+
+  .bookitem_right {
+    margin-left: 0;
+  }
+}
+
