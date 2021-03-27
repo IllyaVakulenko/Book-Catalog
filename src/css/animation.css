@@ -1,0 +1,17 @@
+.hidden-menu-ticker:active ~ .btn-menu {
+  transform: translateY(40px);
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  transform: translate(10px, 10px) rotate(90deg) scaleX(0.5);
+  transform: translate(8px, 10px) rotate(-55deg) scaleX(0.8);
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  transform: translateY(-5px) rotate(90deg) scaleX(0.9);
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  transform: translate(-10px, -10px) rotate(90deg) scaleX(0.5);
+  transform: translate(-8px, -10px) rotate(55deg) scaleX(0.8);
+}

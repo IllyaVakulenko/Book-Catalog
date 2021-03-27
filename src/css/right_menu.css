@@ -13,8 +13,6 @@ header {
 
 #right {
   position: absolute; top: 0; right: 0;
-  margin-left: 55px;
-  width: auto;
   height: 100%;
   z-index: 1;
 }

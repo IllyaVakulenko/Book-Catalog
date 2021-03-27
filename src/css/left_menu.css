@@ -1,11 +1,10 @@
 #left {
   position: fixed; top: 0; left: 0;
-  width: 55px;
+  width: 0;
   height: 100%;
   background: #2f2f2f;
   overflow-y: auto;
   z-index: 2;
-  /* opacity: 0.9; */
 }
 
 .nav {
@@ -25,27 +24,12 @@
   border-radius: 3px;
 }
 
-/* .nav a:hover {
-  background-color: #aaa;
-} */
-
 .nav a.active {
   background-color: #997546;
   margin-bottom: 6px;
-  width: 60%;
   text-align: center;
   color: white;
 }
-
-/* .menu_list:hover .sub-menu {
-  display: block;
-  margin-left: 20px;
-} */
-
-/* .sub-menu:hover .sub-sub-menu {
-  display: block;
-  margin-left: 20px;
-} */
 
 .menu_list {
   width: fit-content;
@@ -91,13 +75,16 @@ ul {
   background-color: #666;
   padding: 5px;
   position: fixed;
-  top: 13px;
-  left: 10px;
-  border-radius: 5px;
+  top: -50px;
+  right: 5%;
+  border-radius: 0 0 5px 5px;
   cursor: pointer;
   transition: left .23s;
   z-index: 3;
-  width: 25px;
+  width: 40px;
+  height: 100px;
+  transition: all .3s ease 0s;
+  align-content: space-between;
   transform: translateZ(0);
   backface-visibility: hidden;
 }
@@ -111,32 +98,17 @@ ul {
   position: relative;
 }
 
-.btn-menu span.first {
-  margin-top: 0;
+.elements {
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  bottom: 15px;
 }
 
-.hidden-menu-ticker:checked ~ .btn-menu {
-  left: 142px;
-}
-
-.hidden-menu-ticker:checked ~ #right {
-  background-color: aqua;
+span.first, span.second, span.third {
+  border-radius: 5px;
 }
 
 .hidden-menu-ticker:checked ~ .nav{
   left: 0;
-}
-
-.hidden-menu-ticker:checked ~ .btn-menu span.first {
-  transform: rotate(45deg);
-  top: 10px;
-}
-
-.hidden-menu-ticker:checked ~ .btn-menu span.second {
-  opacity: 0;
-}
-
-.hidden-menu-ticker:checked ~ .btn-menu span.third {
-  transform: rotate(-45deg);
-  top: -10px;
 }
