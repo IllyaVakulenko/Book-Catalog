@@ -1,5 +1,11 @@
+.hidden-menu-ticker:hover ~ .btn-menu {
+  transform: translateY(2px) scaleY(1.2) scaleX(1.1);
+  box-shadow: 10px 3px 10px #00000080;
+}
+
 .hidden-menu-ticker:active ~ .btn-menu {
   transform: translateY(40px);
+  box-shadow: 8px 5px 10px #00000080;
 }
 
 .hidden-menu-ticker:checked ~ .btn-menu span.first {

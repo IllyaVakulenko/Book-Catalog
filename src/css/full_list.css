@@ -1,25 +1,2 @@
-.full_list {
-  width: auto;
-  padding: 0 4% 0 4%;
-  margin-top: 30px;
-}
 
-.lin_cel.lin_au {
-  margin-left: 0;
-  margin-right: auto;
-  width: fit-content;
-}
-
-.lin_cel.lin_bo {
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-}
-
-.hr_cel {
-  width: 100%;
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #ffffff00, #daae76bf, #ffffff00);
-}
 
