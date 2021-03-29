@@ -28,7 +28,19 @@
   padding: 5px;
   border-radius: 10px;
   height: 178px;
-  overflow-y: auto;
+  overflow-y: hidden;
+}
+
+.p_about:hover {
+  min-height: 178px;
+  height: auto;
+}
+
+.open_annot {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  border-radius: 10px;
 }
 
 .bookitem_meta_block {
